@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Germinagram</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="logo.svg" alt="" />
+      <div class="container-botoes">
+        <a class="login" href="login.html">Log in</a>
+        <a class="signup" href="cadastro.html">Sign up</a>
+      </div>
+    </header>
+    <main>
+      <a class="postadd"><img class="plus" src="plus.svg" alt="" /></a>
+      <section class="secao-posts">
+        <!-- <article class="post">
+          <div class="post-info">
+            <div class="usuario-info">
+              <div class="avatar"></div>
+              <div class="nome-hora">
+                <p class="nome">Joana da Silva Peixoto</p>
+                <p class="hora">00 horas atrás</p>
+              </div>
+            </div>
+            <p class="comentario">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
+              veritatis ratione sit eveniet magni, velit omnis quo quis
+              temporibus eaque architecto quos ex aliquam iure, adipisci
+              praesentium quidem, quia voluptate.
+            </p>
+          </div>
+          <img class="post-imagem" src="pordosol.jpg" alt="" />
+          <div class="post-interacoes">
+            <div class="container-like">
+              <img class="like-btn" src="like.svg" alt="like" />
+              <p class="descricao-like">Curtir</p>
+            </div>
+            <div class="container-coment">
+              <img class="coment-btn" src="comentario.svg" alt="like" />
+              <p class="descricao-comentario">Comentários</p>
+            </div>
+          </div>
+        </article> -->
+      </section>
+    </main>
+    <aside class="post-modal">
+      <form class="form-post" action="#">
+        <textarea
+          name="comentario"
+          class="comentario-form"
+          placeholder="Digite um comentário de até 200 palavras"
+        ></textarea>
+        <div class="container-imagem">
+          <input
+            accept="image/*"
+            type="file"
+            name="campo-foto"
+            id="campo-foto"
+          />
+        </div>
+        <input class="postar" type="submit" value="Postar" />
+      </form>
+    </aside>
+  </body>
+</html>
